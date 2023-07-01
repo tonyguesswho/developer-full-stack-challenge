@@ -81,3 +81,10 @@ The usage of the provided template is mandatory. Submissions not written in this
 login details
 - username : `testuser`
 - password `testpassword`
+
+
+# Screenshots
+
+<img width="663" alt="Screenshot 2023-07-01 at 22 15 54" src="https://github.com/tonyguesswho/developer-full-stack-challenge/assets/19865565/79723b78-c55a-4a3b-8fe9-cf6541b25542">
+<img width="748" alt="Screenshot 2023-07-01 at 22 15 44" src="https://github.com/tonyguesswho/developer-full-stack-challenge/assets/19865565/e8c30306-7fe3-4516-9f48-6c74b67ec5c4">
+<img width="1501" alt="Screenshot 2023-07-01 at 22 14 26" src="https://github.com/tonyguesswho/developer-full-stack-challenge/assets/19865565/65946022-8e2e-4367-bb1f-82cdde42c5ec">
