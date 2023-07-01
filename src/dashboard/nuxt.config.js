@@ -1,3 +1,4 @@
+
 export default {
     // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
     ssr: false,
@@ -48,7 +49,7 @@ export default {
 
     publicRuntimeConfig: {
         axios: {
-            baseURL: process.env.BASEURL || 'http://127.0.0.1:8000',
+            baseURL: process.env.BASEURL || 'http://127.0.0.1:8000'
         },
     },
 
@@ -60,4 +61,22 @@ export default {
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {},
+
+    routes: [
+        {
+          path: '/',
+          component: '~/pages/index.vue',
+          name: 'login'
+        },
+        {
+          path: '/authors',
+          component: '~/pages/Authors.vue',
+          name: 'authors'
+        },
+        {
+          path: '/books',
+          component: '~/pages/Books.vue',
+          name: 'books'
+        }
+      ]
 };

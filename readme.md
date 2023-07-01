@@ -54,3 +54,30 @@ The modal to add/edit a book should have three fields:
 
 ## Notes
 The usage of the provided template is mandatory. Submissions not written in this template, will not be reviewed. Writing tests is not mandatory, but doing so will give you bonus points. Please fork this repository and provide us a link to a public GitHub repository.
+
+
+
+## SETUP INSTRUCTIONS
+
+# BACKEND API SETUP
+- Cd into the src/api folder
+- create a .env file and use the contect of the .env.example file
+- update the values of the env to suit your local postgres credentials
+- Make any other custom change to the env
+- Create the postgres db
+- Create and Activate a virtual enviroment for the python dependencies
+- Run `pip install -r requirements.txt` to install the dependencies in the requirement.txt
+- Run alembic uprade head to apply existing migrations
+- Run `python3 initial_data.py` to populate Database with initial seed data
+- Run  `uvicorn main:app --reload` to start the server
+- The server should be running on `http://localhost:8000/`
+
+# FRONTEND SETUP
+- cd into src/dashboard folder
+- Run  `npm run dev` to start the server
+- The client should be running on `http://localhost:3000`
+
+
+login details
+- username : `testuser`
+- password `testpassword`
